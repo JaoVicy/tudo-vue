@@ -1,5 +1,6 @@
 <script setup>
   import { computed, ref } from 'vue';
+  import vueImage from '@/img/vue-img.png';
 
 const number1 = ref(0);
 const number2 = ref(0);
@@ -30,10 +31,20 @@ const resetValues = () => {
 <template>
   <div class="container">
     <header class="p-5 mb-4 bg-light rounded-3">
-      <h1>Vue Calculator</h1>
-    <p>
-      Escolha que operação deseja fazer:
-    </p>
+      <div class="row align-items-center">
+        <!-- Coluna para a imagem -->
+        <div class="col-2 text-center">
+          <img :src="vueImage" alt="Vue Image" class="img-fluid" style="max-width: 100%;" />
+        </div>
+
+        <!-- Coluna para o título e texto -->
+        <div class="col-10">
+          <h1 class="mb-0">Vue Calculator</h1>
+          <p class="mt-3">
+            Escolha que operação deseja fazer:
+          </p>
+        </div>
+      </div>
     </header>
 
     <div class="row justify-content-center">
