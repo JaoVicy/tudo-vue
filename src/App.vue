@@ -99,6 +99,17 @@ const resetValues = () => {
         <button @click="resetValues" class="btn btn-secondary">Default</button>
       </div>
     </div>
+    <div class="container">
+      <div class="row justify-content-center mt-4">
+        <div class="col-md-3">
+          <footer class="justify-content-center bg-light">
+            <p class="text-center">
+              By João, <a href="https://github.com/JaoVicy" class="link-primary">GitHub - JaoVicy</a>
+            </p>
+          </footer>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
