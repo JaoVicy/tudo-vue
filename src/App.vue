@@ -41,7 +41,7 @@ const resetValues = () => {
         <div class="col-10">
           <h1 class="mb-0">Vue Calculator</h1>
           <p class="mt-3">
-            Escolha que operação deseja fazer:
+            Choose the operation that you need:
           </p>
         </div>
       </div>
